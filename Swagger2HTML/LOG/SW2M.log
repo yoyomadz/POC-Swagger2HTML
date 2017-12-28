@@ -1,0 +1,350 @@
+2017-12-26 16:30:29 | INFO  | [main] c.m.a.Swagger2HTMLStart:48 - Starting Swagger2HTMLStart on DESKTOP-ICQP2CV with PID 3700 (started by yotin in D:\SCB\API Spec Builder\POC\SWAGGER_2_HTML\Swagger2HTML)
+2017-12-26 16:30:29 | INFO  | [main] c.m.a.Swagger2HTMLStart:661 - No active profile set, falling back to default profiles: default
+2017-12-26 16:30:29 | INFO  | [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:581 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@707194ba: startup date [Tue Dec 26 16:30:29 ICT 2017]; root of context hierarchy
+2017-12-26 16:30:30 | INFO  | [background-preinit] o.h.v.i.u.Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-12-26 16:30:32 | INFO  | [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 8080 (http)
+2017-12-26 16:30:32 | INFO  | [main] o.a.c.c.StandardService:179 - Starting service Tomcat
+2017-12-26 16:30:32 | INFO  | [main] o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.5
+2017-12-26 16:30:32 | INFO  | [localhost-startStop-1] o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-12-26 16:30:32 | INFO  | [localhost-startStop-1] o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 3050 ms
+2017-12-26 16:30:33 | INFO  | [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-26 16:30:33 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-26 16:30:33 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-26 16:30:33 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-26 16:30:33 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-26 16:30:34 | INFO  | [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@707194ba: startup date [Tue Dec 26 16:30:29 ICT 2017]; root of context hierarchy
+2017-12-26 16:30:34 | INFO  | [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-26 16:30:34 | INFO  | [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-26 16:30:34 | INFO  | [main] o.s.w.s.h.SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-26 16:30:34 | INFO  | [main] o.s.w.s.h.SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-26 16:30:34 | INFO  | [main] o.s.w.s.h.SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-26 16:30:34 | INFO  | [main] o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-12-26 16:30:34 | INFO  | [main] o.a.c.h.Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-12-26 16:30:34 | INFO  | [main] o.a.c.h.Http11NioProtocol:179 - Starting ProtocolHandler [http-nio-8080]
+2017-12-26 16:30:34 | INFO  | [main] o.a.t.u.n.NioSelectorPool:179 - Using a shared selector for servlet write/read
+2017-12-26 16:30:34 | INFO  | [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer:185 - Tomcat started on port(s): 8080 (http)
+2017-12-26 16:30:34 | INFO  | [main] c.m.a.Swagger2HTMLStart:41 -  ##### Run Swagger2HTMLStart.run : Run without argument #####
+2017-12-26 16:30:34 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:60 - ##### START : Swagger2HTML Application : Generate the json swagger file to HTML. #####
+2017-12-26 16:30:34 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_lookup.json
+2017-12-26 16:30:35 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.1 :::INPUT : ewallet_anyid_lookup.json.json::: :::OUTPUT : ewallet_anyid_lookup.json.html::: #####
+2017-12-26 16:30:35 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_transfer.json
+2017-12-26 16:30:35 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.2 :::INPUT : ewallet_anyid_transfer.json.json::: :::OUTPUT : ewallet_anyid_transfer.json.html::: #####
+2017-12-26 16:30:35 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_lookup.json
+2017-12-26 16:30:35 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.3 :::INPUT : ewallet_promptpay_lookup.json.json::: :::OUTPUT : ewallet_promptpay_lookup.json.html::: #####
+2017-12-26 16:30:35 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_transfer.json
+2017-12-26 16:30:35 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.4 :::INPUT : ewallet_promptpay_transfer.json.json::: :::OUTPUT : ewallet_promptpay_transfer.json.html::: #####
+2017-12-26 16:30:35 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//loan_swagger.json
+2017-12-26 16:30:36 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.5 :::INPUT : loan_swagger.json.json::: :::OUTPUT : loan_swagger.json.html::: #####
+2017-12-26 16:30:36 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json
+2017-12-26 16:30:36 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.6 :::INPUT : SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json.html::: #####
+2017-12-26 16:30:36 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json
+2017-12-26 16:30:37 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.7 :::INPUT : SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json.html::: #####
+2017-12-26 16:30:37 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json
+2017-12-26 16:30:37 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.8 :::INPUT : SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json.html::: #####
+2017-12-26 16:30:37 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json
+2017-12-26 16:30:37 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.9 :::INPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json.html::: #####
+2017-12-26 16:30:37 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json
+2017-12-26 16:30:37 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.10 :::INPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json.html::: #####
+2017-12-26 16:30:37 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json
+2017-12-26 16:30:37 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.11 :::INPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json.html::: #####
+2017-12-26 16:30:37 | INFO  | [Thread-2] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:982 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@707194ba: startup date [Tue Dec 26 16:30:29 ICT 2017]; root of context hierarchy
+2017-12-26 16:30:37 | INFO  | [Thread-2] o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-12-26 16:31:16 | INFO  | [main] c.m.a.Swagger2HTMLStart:48 - Starting Swagger2HTMLStart on DESKTOP-ICQP2CV with PID 4948 (started by yotin in D:\SCB\API Spec Builder\POC\SWAGGER_2_HTML\Swagger2HTML)
+2017-12-26 16:31:16 | INFO  | [main] c.m.a.Swagger2HTMLStart:661 - No active profile set, falling back to default profiles: default
+2017-12-26 16:31:16 | INFO  | [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:581 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@707194ba: startup date [Tue Dec 26 16:31:16 ICT 2017]; root of context hierarchy
+2017-12-26 16:31:16 | INFO  | [background-preinit] o.h.v.i.u.Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-12-26 16:31:18 | INFO  | [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 8080 (http)
+2017-12-26 16:31:18 | INFO  | [main] o.a.c.c.StandardService:179 - Starting service Tomcat
+2017-12-26 16:31:18 | INFO  | [main] o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.5
+2017-12-26 16:31:19 | INFO  | [localhost-startStop-1] o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-12-26 16:31:19 | INFO  | [localhost-startStop-1] o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 2928 ms
+2017-12-26 16:31:19 | INFO  | [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-26 16:31:19 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-26 16:31:19 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-26 16:31:19 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-26 16:31:19 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-26 16:31:19 | INFO  | [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@707194ba: startup date [Tue Dec 26 16:31:16 ICT 2017]; root of context hierarchy
+2017-12-26 16:31:20 | INFO  | [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-26 16:31:20 | INFO  | [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-26 16:31:20 | INFO  | [main] o.s.w.s.h.SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-26 16:31:20 | INFO  | [main] o.s.w.s.h.SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-26 16:31:20 | INFO  | [main] o.s.w.s.h.SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-26 16:31:20 | INFO  | [main] o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-12-26 16:31:20 | INFO  | [main] o.a.c.h.Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-12-26 16:31:20 | INFO  | [main] o.a.c.h.Http11NioProtocol:179 - Starting ProtocolHandler [http-nio-8080]
+2017-12-26 16:31:20 | INFO  | [main] o.a.t.u.n.NioSelectorPool:179 - Using a shared selector for servlet write/read
+2017-12-26 16:31:20 | INFO  | [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer:185 - Tomcat started on port(s): 8080 (http)
+2017-12-26 16:31:20 | INFO  | [main] c.m.a.Swagger2HTMLStart:41 -  ##### Run Swagger2HTMLStart.run : Run without argument #####
+2017-12-26 16:31:20 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:60 - ##### START : Swagger2HTML Application : Generate the json swagger file to HTML. #####
+2017-12-26 16:31:20 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_lookup.json
+2017-12-26 16:31:21 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.1 :::INPUT : ewallet_anyid_lookup.json.json::: :::OUTPUT : ewallet_anyid_lookup.json.html::: #####
+2017-12-26 16:31:21 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_transfer.json
+2017-12-26 16:31:21 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.2 :::INPUT : ewallet_anyid_transfer.json.json::: :::OUTPUT : ewallet_anyid_transfer.json.html::: #####
+2017-12-26 16:31:21 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_lookup.json
+2017-12-26 16:31:21 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.3 :::INPUT : ewallet_promptpay_lookup.json.json::: :::OUTPUT : ewallet_promptpay_lookup.json.html::: #####
+2017-12-26 16:31:21 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_transfer.json
+2017-12-26 16:31:21 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.4 :::INPUT : ewallet_promptpay_transfer.json.json::: :::OUTPUT : ewallet_promptpay_transfer.json.html::: #####
+2017-12-26 16:31:21 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//loan_swagger.json
+2017-12-26 16:31:22 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.5 :::INPUT : loan_swagger.json.json::: :::OUTPUT : loan_swagger.json.html::: #####
+2017-12-26 16:31:22 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json
+2017-12-26 16:31:22 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.6 :::INPUT : SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json.html::: #####
+2017-12-26 16:31:22 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json
+2017-12-26 16:31:22 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.7 :::INPUT : SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json.html::: #####
+2017-12-26 16:31:22 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json
+2017-12-26 16:31:22 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.8 :::INPUT : SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json.html::: #####
+2017-12-26 16:31:22 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json
+2017-12-26 16:31:23 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.9 :::INPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json.html::: #####
+2017-12-26 16:31:23 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json
+2017-12-26 16:31:23 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.10 :::INPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json.html::: #####
+2017-12-26 16:31:23 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json
+2017-12-26 16:31:23 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:74 -  ##### No.11 :::INPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json.html::: #####
+2017-12-26 16:31:23 | INFO  | [Thread-2] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:982 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@707194ba: startup date [Tue Dec 26 16:31:16 ICT 2017]; root of context hierarchy
+2017-12-26 16:31:23 | INFO  | [Thread-2] o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-12-27 17:53:46 | INFO  | [main] c.m.a.Swagger2HTMLStart:48 - Starting Swagger2HTMLStart on DESKTOP-ICQP2CV with PID 2600 (started by yotin in D:\SCB\API Spec Builder\POC\SWAGGER_2_HTML\Swagger2HTML)
+2017-12-27 17:53:46 | INFO  | [main] c.m.a.Swagger2HTMLStart:661 - No active profile set, falling back to default profiles: default
+2017-12-27 17:53:47 | INFO  | [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:581 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399c4be1: startup date [Wed Dec 27 17:53:47 ICT 2017]; root of context hierarchy
+2017-12-27 17:53:48 | INFO  | [background-preinit] o.h.v.i.u.Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-12-27 17:53:50 | INFO  | [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 8080 (http)
+2017-12-27 17:53:50 | INFO  | [main] o.a.c.c.StandardService:179 - Starting service Tomcat
+2017-12-27 17:53:50 | INFO  | [main] o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.5
+2017-12-27 17:53:51 | INFO  | [localhost-startStop-1] o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-12-27 17:53:51 | INFO  | [localhost-startStop-1] o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 4197 ms
+2017-12-27 17:53:51 | INFO  | [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-27 17:53:51 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-27 17:53:51 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-27 17:53:51 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-27 17:53:51 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-27 17:53:52 | INFO  | [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399c4be1: startup date [Wed Dec 27 17:53:47 ICT 2017]; root of context hierarchy
+2017-12-27 17:53:52 | INFO  | [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-27 17:53:52 | INFO  | [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-27 17:53:52 | INFO  | [main] o.s.w.s.h.SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-27 17:53:52 | INFO  | [main] o.s.w.s.h.SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-27 17:53:52 | INFO  | [main] o.s.w.s.h.SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-27 17:53:52 | INFO  | [main] o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-12-27 17:53:53 | INFO  | [main] o.a.c.h.Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-12-27 17:53:53 | INFO  | [main] o.a.c.h.Http11NioProtocol:179 - Starting ProtocolHandler [http-nio-8080]
+2017-12-27 17:53:53 | INFO  | [main] o.a.t.u.n.NioSelectorPool:179 - Using a shared selector for servlet write/read
+2017-12-27 17:53:53 | INFO  | [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer:185 - Tomcat started on port(s): 8080 (http)
+2017-12-27 17:53:53 | INFO  | [main] c.m.a.Swagger2HTMLStart:41 -  ##### Run Swagger2HTMLStart.run : Run without argument #####
+2017-12-27 17:53:53 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:55 - ##### START : Swagger2HTML Application : Generate the json swagger file to HTML. #####
+2017-12-27 17:53:53 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_lookup.json
+2017-12-27 17:53:53 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_lookup.json
+2017-12-27 17:53:54 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.1 :::INPUT : ewallet_anyid_lookup.json.json::: :::OUTPUT : ewallet_anyid_lookup.json.html::: #####
+2017-12-27 17:53:54 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_transfer.json
+2017-12-27 17:53:54 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_transfer.json
+2017-12-27 17:53:54 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.2 :::INPUT : ewallet_anyid_transfer.json.json::: :::OUTPUT : ewallet_anyid_transfer.json.html::: #####
+2017-12-27 17:53:54 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_lookup.json
+2017-12-27 17:53:54 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_lookup.json
+2017-12-27 17:53:54 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.3 :::INPUT : ewallet_promptpay_lookup.json.json::: :::OUTPUT : ewallet_promptpay_lookup.json.html::: #####
+2017-12-27 17:53:54 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_transfer.json
+2017-12-27 17:53:55 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_transfer.json
+2017-12-27 17:53:55 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.4 :::INPUT : ewallet_promptpay_transfer.json.json::: :::OUTPUT : ewallet_promptpay_transfer.json.html::: #####
+2017-12-27 17:53:55 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//loan_swagger.json
+2017-12-27 17:53:56 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//loan_swagger.json
+2017-12-27 17:53:56 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.5 :::INPUT : loan_swagger.json.json::: :::OUTPUT : loan_swagger.json.html::: #####
+2017-12-27 17:53:56 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json
+2017-12-27 17:53:57 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json
+2017-12-27 17:53:57 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.6 :::INPUT : SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json.html::: #####
+2017-12-27 17:53:57 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json
+2017-12-27 17:53:57 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json
+2017-12-27 17:53:57 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.7 :::INPUT : SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json.html::: #####
+2017-12-27 17:53:57 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json
+2017-12-27 17:53:57 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json
+2017-12-27 17:53:57 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.8 :::INPUT : SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json.html::: #####
+2017-12-27 17:53:57 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json
+2017-12-27 17:53:57 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json
+2017-12-27 17:53:58 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.9 :::INPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json.html::: #####
+2017-12-27 17:53:58 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json
+2017-12-27 17:53:58 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json
+2017-12-27 17:53:58 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.10 :::INPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json.html::: #####
+2017-12-27 17:53:58 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json
+2017-12-27 17:53:58 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json
+2017-12-27 17:53:58 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.11 :::INPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json.html::: #####
+2017-12-27 17:53:58 | INFO  | [Thread-2] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:982 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399c4be1: startup date [Wed Dec 27 17:53:47 ICT 2017]; root of context hierarchy
+2017-12-27 17:53:58 | INFO  | [Thread-2] o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-12-27 17:54:56 | INFO  | [main] c.m.a.Swagger2HTMLStart:48 - Starting Swagger2HTMLStart on DESKTOP-ICQP2CV with PID 5432 (started by yotin in D:\SCB\API Spec Builder\POC\SWAGGER_2_HTML\Swagger2HTML)
+2017-12-27 17:54:56 | INFO  | [main] c.m.a.Swagger2HTMLStart:661 - No active profile set, falling back to default profiles: default
+2017-12-27 17:54:56 | INFO  | [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:581 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399c4be1: startup date [Wed Dec 27 17:54:56 ICT 2017]; root of context hierarchy
+2017-12-27 17:54:57 | INFO  | [background-preinit] o.h.v.i.u.Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-12-27 17:54:59 | INFO  | [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 8080 (http)
+2017-12-27 17:54:59 | INFO  | [main] o.a.c.c.StandardService:179 - Starting service Tomcat
+2017-12-27 17:54:59 | INFO  | [main] o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.5
+2017-12-27 17:55:00 | INFO  | [localhost-startStop-1] o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-12-27 17:55:00 | INFO  | [localhost-startStop-1] o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 3657 ms
+2017-12-27 17:55:00 | INFO  | [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-27 17:55:00 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-27 17:55:00 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-27 17:55:00 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-27 17:55:00 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-27 17:55:01 | INFO  | [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399c4be1: startup date [Wed Dec 27 17:54:56 ICT 2017]; root of context hierarchy
+2017-12-27 17:55:01 | INFO  | [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-27 17:55:01 | INFO  | [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-27 17:55:01 | INFO  | [main] o.s.w.s.h.SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-27 17:55:01 | INFO  | [main] o.s.w.s.h.SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-27 17:55:01 | INFO  | [main] o.s.w.s.h.SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-27 17:55:01 | INFO  | [main] o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-12-27 17:55:01 | INFO  | [main] o.a.c.h.Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-12-27 17:55:01 | INFO  | [main] o.a.c.h.Http11NioProtocol:179 - Starting ProtocolHandler [http-nio-8080]
+2017-12-27 17:55:01 | INFO  | [main] o.a.t.u.n.NioSelectorPool:179 - Using a shared selector for servlet write/read
+2017-12-27 17:55:01 | INFO  | [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer:185 - Tomcat started on port(s): 8080 (http)
+2017-12-27 17:55:01 | INFO  | [main] c.m.a.Swagger2HTMLStart:41 -  ##### Run Swagger2HTMLStart.run : Run without argument #####
+2017-12-27 17:55:01 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:55 - ##### START : Swagger2HTML Application : Generate the json swagger file to HTML. #####
+2017-12-27 17:55:01 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_lookup.json
+2017-12-27 17:55:02 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_lookup.json
+2017-12-27 17:55:02 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.1 :::INPUT : ewallet_anyid_lookup.json.json::: :::OUTPUT : ewallet_anyid_lookup.json.html::: #####
+2017-12-27 17:55:02 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_transfer.json
+2017-12-27 17:55:02 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_transfer.json
+2017-12-27 17:55:02 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.2 :::INPUT : ewallet_anyid_transfer.json.json::: :::OUTPUT : ewallet_anyid_transfer.json.html::: #####
+2017-12-27 17:55:02 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_lookup.json
+2017-12-27 17:55:02 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_lookup.json
+2017-12-27 17:55:02 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.3 :::INPUT : ewallet_promptpay_lookup.json.json::: :::OUTPUT : ewallet_promptpay_lookup.json.html::: #####
+2017-12-27 17:55:02 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_transfer.json
+2017-12-27 17:55:02 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_transfer.json
+2017-12-27 17:55:03 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.4 :::INPUT : ewallet_promptpay_transfer.json.json::: :::OUTPUT : ewallet_promptpay_transfer.json.html::: #####
+2017-12-27 17:55:03 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//loan_swagger.json
+2017-12-27 17:55:03 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//loan_swagger.json
+2017-12-27 17:55:04 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.5 :::INPUT : loan_swagger.json.json::: :::OUTPUT : loan_swagger.json.html::: #####
+2017-12-27 17:55:04 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json
+2017-12-27 17:55:04 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json
+2017-12-27 17:55:04 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.6 :::INPUT : SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json.html::: #####
+2017-12-27 17:55:04 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json
+2017-12-27 17:55:04 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json
+2017-12-27 17:55:04 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.7 :::INPUT : SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json.html::: #####
+2017-12-27 17:55:04 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json
+2017-12-27 17:55:04 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json
+2017-12-27 17:55:04 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.8 :::INPUT : SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json.html::: #####
+2017-12-27 17:55:04 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json
+2017-12-27 17:55:05 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json
+2017-12-27 17:55:05 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.9 :::INPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json.html::: #####
+2017-12-27 17:55:05 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json
+2017-12-27 17:55:05 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json
+2017-12-27 17:55:05 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.10 :::INPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json.html::: #####
+2017-12-27 17:55:05 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json
+2017-12-27 17:55:05 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json
+2017-12-27 17:55:05 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.11 :::INPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json.html::: #####
+2017-12-27 17:55:05 | INFO  | [Thread-2] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:982 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399c4be1: startup date [Wed Dec 27 17:54:56 ICT 2017]; root of context hierarchy
+2017-12-27 17:55:05 | INFO  | [Thread-2] o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-12-27 18:01:52 | INFO  | [main] c.m.a.Swagger2HTMLStart:48 - Starting Swagger2HTMLStart on DESKTOP-ICQP2CV with PID 12276 (started by yotin in D:\SCB\API Spec Builder\POC\SWAGGER_2_HTML\Swagger2HTML)
+2017-12-27 18:01:52 | INFO  | [main] c.m.a.Swagger2HTMLStart:661 - No active profile set, falling back to default profiles: default
+2017-12-27 18:01:52 | INFO  | [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:581 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399c4be1: startup date [Wed Dec 27 18:01:52 ICT 2017]; root of context hierarchy
+2017-12-27 18:01:52 | INFO  | [background-preinit] o.h.v.i.u.Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-12-27 18:01:55 | INFO  | [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 8080 (http)
+2017-12-27 18:01:55 | INFO  | [main] o.a.c.c.StandardService:179 - Starting service Tomcat
+2017-12-27 18:01:55 | INFO  | [main] o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.5
+2017-12-27 18:01:55 | INFO  | [localhost-startStop-1] o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-12-27 18:01:55 | INFO  | [localhost-startStop-1] o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 3397 ms
+2017-12-27 18:01:55 | INFO  | [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-27 18:01:55 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-27 18:01:55 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-27 18:01:55 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-27 18:01:55 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-27 18:01:56 | INFO  | [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399c4be1: startup date [Wed Dec 27 18:01:52 ICT 2017]; root of context hierarchy
+2017-12-27 18:01:56 | INFO  | [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-27 18:01:56 | INFO  | [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-27 18:01:56 | INFO  | [main] o.s.w.s.h.SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-27 18:01:56 | INFO  | [main] o.s.w.s.h.SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-27 18:01:56 | INFO  | [main] o.s.w.s.h.SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-27 18:01:57 | INFO  | [main] o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-12-27 18:01:57 | INFO  | [main] o.a.c.h.Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-12-27 18:01:57 | INFO  | [main] o.a.c.h.Http11NioProtocol:179 - Starting ProtocolHandler [http-nio-8080]
+2017-12-27 18:01:57 | INFO  | [main] o.a.t.u.n.NioSelectorPool:179 - Using a shared selector for servlet write/read
+2017-12-27 18:01:57 | INFO  | [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer:185 - Tomcat started on port(s): 8080 (http)
+2017-12-27 18:01:57 | INFO  | [main] c.m.a.Swagger2HTMLStart:41 -  ##### Run Swagger2HTMLStart.run : Run without argument #####
+2017-12-27 18:01:57 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:55 - ##### START : Swagger2HTML Application : Generate the json swagger file to HTML. #####
+2017-12-27 18:01:57 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_lookup.json
+2017-12-27 18:01:57 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_lookup.json
+2017-12-27 18:01:57 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.1 :::INPUT : ewallet_anyid_lookup.json.json::: :::OUTPUT : ewallet_anyid_lookup.json.html::: #####
+2017-12-27 18:01:57 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_transfer.json
+2017-12-27 18:01:58 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_transfer.json
+2017-12-27 18:01:58 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.2 :::INPUT : ewallet_anyid_transfer.json.json::: :::OUTPUT : ewallet_anyid_transfer.json.html::: #####
+2017-12-27 18:01:58 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_lookup.json
+2017-12-27 18:01:58 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_lookup.json
+2017-12-27 18:01:58 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.3 :::INPUT : ewallet_promptpay_lookup.json.json::: :::OUTPUT : ewallet_promptpay_lookup.json.html::: #####
+2017-12-27 18:01:58 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_transfer.json
+2017-12-27 18:01:58 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_transfer.json
+2017-12-27 18:01:58 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.4 :::INPUT : ewallet_promptpay_transfer.json.json::: :::OUTPUT : ewallet_promptpay_transfer.json.html::: #####
+2017-12-27 18:01:58 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//loan_swagger.json
+2017-12-27 18:01:59 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//loan_swagger.json
+2017-12-27 18:01:59 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.5 :::INPUT : loan_swagger.json.json::: :::OUTPUT : loan_swagger.json.html::: #####
+2017-12-27 18:01:59 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json
+2017-12-27 18:02:00 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json
+2017-12-27 18:02:00 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.6 :::INPUT : SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json.html::: #####
+2017-12-27 18:02:00 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json
+2017-12-27 18:02:00 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json
+2017-12-27 18:02:00 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.7 :::INPUT : SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json.html::: #####
+2017-12-27 18:02:00 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json
+2017-12-27 18:02:00 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json
+2017-12-27 18:02:00 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.8 :::INPUT : SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json.html::: #####
+2017-12-27 18:02:00 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json
+2017-12-27 18:02:00 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json
+2017-12-27 18:02:00 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.9 :::INPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json.html::: #####
+2017-12-27 18:02:00 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json
+2017-12-27 18:02:01 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json
+2017-12-27 18:02:01 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.10 :::INPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json.html::: #####
+2017-12-27 18:02:01 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json
+2017-12-27 18:02:01 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json
+2017-12-27 18:02:01 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.11 :::INPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json.json::: :::OUTPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json.html::: #####
+2017-12-27 18:02:01 | INFO  | [Thread-2] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:982 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399c4be1: startup date [Wed Dec 27 18:01:52 ICT 2017]; root of context hierarchy
+2017-12-27 18:02:01 | INFO  | [Thread-2] o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-12-28 08:28:44 | INFO  | [main] c.m.a.Swagger2HTMLStart:48 - Starting Swagger2HTMLStart on DESKTOP-ICQP2CV with PID 6932 (started by yotin in D:\SCB\API Spec Builder\POC\SWAGGER_2_HTML\Swagger2HTML)
+2017-12-28 08:28:44 | INFO  | [main] c.m.a.Swagger2HTMLStart:661 - No active profile set, falling back to default profiles: default
+2017-12-28 08:28:45 | INFO  | [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:581 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399c4be1: startup date [Thu Dec 28 08:28:45 ICT 2017]; root of context hierarchy
+2017-12-28 08:28:45 | INFO  | [background-preinit] o.h.v.i.u.Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-12-28 08:28:49 | INFO  | [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 8080 (http)
+2017-12-28 08:28:49 | INFO  | [main] o.a.c.c.StandardService:179 - Starting service Tomcat
+2017-12-28 08:28:49 | INFO  | [main] o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.5
+2017-12-28 08:28:49 | INFO  | [localhost-startStop-1] o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-12-28 08:28:49 | INFO  | [localhost-startStop-1] o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 4267 ms
+2017-12-28 08:28:49 | INFO  | [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-28 08:28:49 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-28 08:28:49 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-28 08:28:49 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-28 08:28:49 | INFO  | [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-28 08:28:50 | INFO  | [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399c4be1: startup date [Thu Dec 28 08:28:45 ICT 2017]; root of context hierarchy
+2017-12-28 08:28:50 | INFO  | [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-28 08:28:50 | INFO  | [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-28 08:28:50 | INFO  | [main] o.s.w.s.h.SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-28 08:28:50 | INFO  | [main] o.s.w.s.h.SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-28 08:28:50 | INFO  | [main] o.s.w.s.h.SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-28 08:28:50 | INFO  | [main] o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-12-28 08:28:50 | INFO  | [main] o.a.c.h.Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-12-28 08:28:50 | INFO  | [main] o.a.c.h.Http11NioProtocol:179 - Starting ProtocolHandler [http-nio-8080]
+2017-12-28 08:28:50 | INFO  | [main] o.a.t.u.n.NioSelectorPool:179 - Using a shared selector for servlet write/read
+2017-12-28 08:28:50 | INFO  | [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer:185 - Tomcat started on port(s): 8080 (http)
+2017-12-28 08:28:50 | INFO  | [main] c.m.a.Swagger2HTMLStart:41 -  ##### Run Swagger2HTMLStart.run : Run without argument #####
+2017-12-28 08:28:50 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:55 - ##### START : Swagger2HTML Application : Generate the json swagger file to HTML. #####
+2017-12-28 08:28:50 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_lookup.json
+2017-12-28 08:28:51 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_lookup.json
+2017-12-28 08:28:51 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.1 :::INPUT : ewallet_anyid_lookup.json.json::: :::OUTPUT : Generated API Ducment & API Dictionary [SUCCESS] #####
+2017-12-28 08:28:51 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_transfer.json
+2017-12-28 08:28:51 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_anyid_transfer.json
+2017-12-28 08:28:51 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.2 :::INPUT : ewallet_anyid_transfer.json.json::: :::OUTPUT : Generated API Ducment & API Dictionary [SUCCESS] #####
+2017-12-28 08:28:51 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_lookup.json
+2017-12-28 08:28:51 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_lookup.json
+2017-12-28 08:28:51 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.3 :::INPUT : ewallet_promptpay_lookup.json.json::: :::OUTPUT : Generated API Ducment & API Dictionary [SUCCESS] #####
+2017-12-28 08:28:51 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_transfer.json
+2017-12-28 08:28:52 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//ewallet_promptpay_transfer.json
+2017-12-28 08:28:52 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.4 :::INPUT : ewallet_promptpay_transfer.json.json::: :::OUTPUT : Generated API Ducment & API Dictionary [SUCCESS] #####
+2017-12-28 08:28:52 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//loan_swagger.json
+2017-12-28 08:28:53 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//loan_swagger.json
+2017-12-28 08:28:53 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.5 :::INPUT : loan_swagger.json.json::: :::OUTPUT : Generated API Ducment & API Dictionary [SUCCESS] #####
+2017-12-28 08:28:53 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json
+2017-12-28 08:28:53 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json
+2017-12-28 08:28:53 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.6 :::INPUT : SCB_IBM-API_Swagger_iSprint-createUser_v1.6.json.json::: :::OUTPUT : Generated API Ducment & API Dictionary [SUCCESS] #####
+2017-12-28 08:28:53 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json
+2017-12-28 08:28:53 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json
+2017-12-28 08:28:53 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.7 :::INPUT : SCB_IBM-API_Swagger_iSprint-findUser_v1.8.json.json::: :::OUTPUT : Generated API Ducment & API Dictionary [SUCCESS] #####
+2017-12-28 08:28:53 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json
+2017-12-28 08:28:53 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json
+2017-12-28 08:28:54 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.8 :::INPUT : SCB_IBM-API_Swagger_iSprint-resetPasswordEx_v1.3.json.json::: :::OUTPUT : Generated API Ducment & API Dictionary [SUCCESS] #####
+2017-12-28 08:28:54 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json
+2017-12-28 08:28:54 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json
+2017-12-28 08:28:54 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.9 :::INPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(approvalotp)_v1.4.json.json::: :::OUTPUT : Generated API Ducment & API Dictionary [SUCCESS] #####
+2017-12-28 08:28:54 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json
+2017-12-28 08:28:54 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json
+2017-12-28 08:28:54 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.10 :::INPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx(loginotp)_v1.4.json.json::: :::OUTPUT : Generated API Ducment & API Dictionary [SUCCESS] #####
+2017-12-28 08:28:54 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json
+2017-12-28 08:28:54 | INFO  | [main] i.s.p.Swagger20Parser:84 - reading from .//INBOUND//SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json
+2017-12-28 08:28:54 | INFO  | [main] c.m.a.s.SwaggerDocumentServiceImpl:62 -  ##### No.11 :::INPUT : SCB_IBM-API_Swagger_iSprint-verifyPasswordEx_v1.5.json.json::: :::OUTPUT : Generated API Ducment & API Dictionary [SUCCESS] #####
+2017-12-28 08:28:54 | INFO  | [Thread-2] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:982 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399c4be1: startup date [Thu Dec 28 08:28:45 ICT 2017]; root of context hierarchy
+2017-12-28 08:28:54 | INFO  | [Thread-2] o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown

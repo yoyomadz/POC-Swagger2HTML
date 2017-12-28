@@ -1,0 +1,8 @@
+json_file:
+  template_apidocs: .\\TEMPLATE\\api_docs.vm
+  template_dictionary: .\\TEMPLATE\\api_dictionary.vm
+  path:
+    root: .\\
+    inbound: .\\INBOUND\\
+    outbound: .\\OUTBOUND\\
+    archived: .\\ARCHIVED\\
